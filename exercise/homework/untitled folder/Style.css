@@ -1,0 +1,115 @@
+.FirstBox{
+  background-color: black;
+margin: 0;
+padding: 10px;
+border-bottom-width: thick;
+border-bottom-style: solid;
+border-bottom-color: yellow;
+}
+.FirstBox h1 {
+  color: yellow;
+  margin: 0;
+}
+
+.FirstBox ul {
+  text-align: center;
+  padding: 10px;
+  color: white;
+  margin: 0;
+}
+.FirstBox li {
+
+  padding: 10px;
+  display: inline;
+  text-align: center;
+}
+.BoldList{
+  font-weight: bold;
+}
+
+.SecondBox{
+  background-color: silver;
+  margin: 0;
+  text-align: center;
+  padding: 10px;
+}
+.are{
+  text-decoration: underline;
+  text-decoration-color: yellow;
+}
+.taste{
+  color: gray;
+  text-decoration: line-through;
+}
+.SecondBox h2{
+  margin: 0;
+}
+
+.ThirdBox{
+  background-image: url(coworking.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 401px;
+  width: inherit;
+  margin: 0;
+}
+.Meet{
+  background: rgba(255, 255, 255, 0.7);
+ height: 278px;
+ float: right;
+ width: 183px;
+ margin-top: 57px;
+ margin-right: 50px;
+ padding: 15px;
+}
+.Meet button{
+  color: Black;
+background-color: yellow;
+width: 173px;
+height: 38px;
+font-size: 15px;
+margin-left: 6px;
+font-weight: bold;
+}
+
+.FourthBox{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  margin: 0;
+}
+.FirstButton{
+  text-align: left;
+padding: 10px;
+}
+.SecondButton{
+  text-align: left;
+  padding: 14px;
+  padding-right: 2px;
+  padding-left: 13px;
+}
+.ThirdButton{
+  text-align: left;
+padding: 10px;
+}
+.FourthBox button{
+  color: Black;
+background-color: silver;
+width: 173px;
+height: 38px;
+font-size: 15px;
+margin-left: 6px;
+font-weight: bold;
+}
+
+.FifthBox{
+  bottom: 0;
+  background-color: Black;
+  color: white;
+  margin: 0;
+  padding: 2px;
+  width: 100%;
+  position: fixed;
+}
+
+}
